@@ -1,17 +1,17 @@
-
-
 {
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
-   "homepage": "https://aryan-webdeveloper.github.io/react_App",
+  "homepage": "https://aryan-webdeveloper.github.io/react-dashboard",
   "type": "module",
-  "scripts": {
+ "scripts": {
   "dev": "vite",
   "build": "vite build",
+  "preview": "vite preview",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d dist"
-},
+}
+,
   "dependencies": {
     "lucide-react": "^0.563.0",
     "react": "^19.2.0",
